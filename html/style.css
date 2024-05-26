@@ -1,0 +1,67 @@
+.card-body {
+    animation: rainbow-bg 5s linear;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+    box-shadow: 2px 2px 30px 4px rgb(0, 0, 0);
+
+}
+
+@keyframes rainbow-bg{
+    100%,0%{
+        background-color: rgb(228, 105, 105);
+    }
+    8%{
+        background-color: rgb(231, 167, 102);
+    }
+    16%{
+        background-color: rgb(197, 197, 101);
+    }
+    25%{
+        background-color: rgb(173, 218, 129);
+    }
+    33%{
+        background-color: rgb(63, 112, 63);
+    }
+    41%{
+        background-color: rgb(100, 168, 134);
+    }
+    50%{
+        background-color: rgb(77, 138, 138);
+    }
+    58%{
+        background-color: rgb(127, 165, 202);
+    }
+    66%{
+        background-color: rgb(75, 75, 139);
+    }
+    75%{
+        background-color: rgb(148, 120, 177);
+    }
+    83%{
+        background-color: rgb(168, 115, 168);
+    }
+    91%{
+        background-color: rgb(161, 80, 121);
+    }
+}
+
+.card-title {
+    color: black;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+#submit {
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background: black;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    box-shadow: -2px 5px 82px -3px rgba(0,0,0,0.75);
+}
+
+#submit:hover{
+    transition: ease 0.5s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px 4px rgb(0, 0, 0);
+}
